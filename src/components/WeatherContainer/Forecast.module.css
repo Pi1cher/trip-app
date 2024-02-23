@@ -1,0 +1,14 @@
+.Forecast {
+    text-align: center;
+
+}
+
+.Temp {
+    font-weight: 800;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.Day {
+    margin-bottom: 10px;
+}

@@ -1,0 +1,27 @@
+.TodayS {
+    width: 30%;
+    background-color: darkblue;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: snow;
+    font-size: 30px;
+
+}
+
+.TodayS p{
+    display: inline;
+    font-size: 40px;
+}
+
+.Today {
+    display: flex;
+    font-size: 40px;
+    position: relative;
+    top: 30%;
+    margin: 0;
+    font-weight: 400;
+
+}

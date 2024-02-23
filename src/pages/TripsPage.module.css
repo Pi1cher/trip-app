@@ -1,0 +1,16 @@
+.TripsPage {
+    display: flex;
+    justify-content: space-between;
+    height: 100vh;
+    align-items: center;
+
+
+}
+
+.Page {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    font-weight: 800;
+    font-size: 40px;
+}

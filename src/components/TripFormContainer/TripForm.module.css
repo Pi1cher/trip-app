@@ -1,0 +1,39 @@
+.form_control {
+    background-color: white;
+
+}
+
+.TripForm {
+    margin: 50px 0 0 50px;
+    font-weight: 500;
+}
+.TripForm  p{
+    margin: 5px;
+    font-weight: 500;
+}
+.TripForm  input{
+    height: 20px;
+    font-weight: 600;
+    border-radius: 20px;
+    font-family: "Montserrat", sans-serif;
+    padding: 5px 10px;
+    font-size: 18px;
+}
+.TripForm input::placeholder{
+    font-size: 16px;
+}
+
+.Btn {
+    height: 30px;
+    margin-top: 20px;
+    width: 100px;
+    border-radius: 20px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 800;
+    background-color: #babae1;
+    color: #000000;
+}
+
+.Btn:hover {
+    background-color: #5f5fc5;
+}

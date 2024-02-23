@@ -1,0 +1,78 @@
+.Trips {
+    display: flex;
+    overflow-x: auto;
+    justify-content: left;
+    max-width: 70%;
+    margin-left: 8%;
+}
+
+.Trips::-webkit-scrollbar {
+    border-radius: 10px;
+
+    background-color: gray;
+    border-style: solid;
+}
+
+.Trips::-webkit-scrollbar-thumb {
+    background: snow;
+    height: 10px;
+    border-radius: 10px;
+    border: solid 1px gray;
+
+}
+.Trips::-webkit-scrollbar-track{
+    height: 20px;
+    background-color: lightgray;
+    border-radius: 10px;
+    border: solid 1px gray;
+}
+
+.AddTrip  {
+    margin: 20px;
+    font-size: 20px;
+    background-color: snow;
+    width: 160px;
+    height: 200px;
+    text-align: center;
+    font-family: "Montserrat", sans-serif;
+    position: absolute;
+    right: 30%;
+
+}
+
+.SearchBox {
+    height: 25px;
+    padding: 5px 10px;
+    border-radius: 25px;
+    text-decoration: none;
+    color: black;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+
+}
+
+
+
+.SearchBox::placeholder{
+    color: black;
+    font-family: "Montserrat", sans-serif;
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.TripsBtn {
+    position: absolute;
+    right: 33%;
+}
+.TripsBtn button{
+    margin: 0 10px;
+    border-radius: 10px;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    height: 25px;
+}
+
+.TripsBtn button:active{
+    background-color: gray;
+}

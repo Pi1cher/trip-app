@@ -1,0 +1,40 @@
+.Trip {
+    margin: 20px;
+    font-size: 14px;
+    text-align: left;
+    background-color: snow;
+    width: 160px;
+    height: 200px;
+
+
+
+}
+
+.Trip p{
+    margin: 5px;
+    font-family: "Montserrat", sans-serif;
+    font-size: 12px;
+    font-weight: 600;
+
+}
+
+
+.TripBtn {
+    border: none;
+    transition: transform 0.5s;
+}
+
+.Trip button:hover{
+    transform: scale(1.1);
+}
+
+.active{
+    transition: transform 0.5s;
+    border-style: solid;
+    border-color: deepskyblue;
+}
+
+.AddTrip {
+
+}
+
